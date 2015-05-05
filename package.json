@@ -1,0 +1,27 @@
+{
+  "name": "express-starter",
+  "version": "0.0.5",
+  "description": "A starter kit designed to spin up an express backend API quickly, including JWT.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Mclaren <mike.mclaren@sq1.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "body-parser": "^1.12.3",
+    "bunyan": "^1.3.5",
+    "debug": "^2.1.3",
+    "express": "^4.12.3",
+    "express-bunyan-logger": "^1.1.1",
+    "express-jwt": "^3.0.0",
+    "jsonwebtoken": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "supertest": "^0.15.0",
+    "supervisor": "^0.6.0"
+  }
+}
