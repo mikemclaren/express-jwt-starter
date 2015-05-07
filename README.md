@@ -6,16 +6,17 @@ Feel free to open a pull-request if you have an idea or improvement!
 To view an example, check out the `examples` branch!
 
 ## Usage
+__Note:__ You should use this starter kit with the [starter-kit](https://www.npmjs.com/package/starter-kit) utility.
 ```
 ./bin/bootstrap
 ./bin/dev-start
 ```
 
-## Build
-__Note:__ Build process target files overwrite dev process files for ease of use.
+## Authentication
+By default, `/auth` is the route for authenticating.  Simply `POST` to it to get a web token.  Once you have a web token, you can pass it with subsequent requests to authenticate.
 
 ```
-./bin/build
+Authorization: Bearer [token]
 ```
 
 ## Important Files
